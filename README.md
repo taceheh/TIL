@@ -1,26 +1,53 @@
-# 📚 TIL (Today I Learned) - Frontend Study
+# 📚 TIL (Today I Learned)
 
-매일 공부한 내용을 기록하고 정리하는 공간입니다.
+> **"매일 꾸준히 성장하는 프론트엔드 개발자"** > 공부한 내용을 정리하고 기록합니다.
 
-## 🏃‍♂️ Study Goals & Status
+<br/>
 
-### 🟡 Modern JavaScript Deep Dive
-> 자바스크립트의 동작 원리를 깊게 이해하기
-- [x] 04장: 변수
-- [ ] 09장: 타입 변환과 단축 평가
-- [ ] 19장: 프로토타입
-- [ ] 23장: 실행 컨텍스트
+## 📂 Study Categories
 
-### 🟢 Design Patterns
-> 유지보수하기 좋은 코드를 위한 설계 패턴 학습
-- [ ] Singleton Pattern
-- [ ] Factory Method Pattern
-- [ ] Observer Pattern
+<details open>
+<summary>
+  <h3 style="display:inline-block">🟡 Modern JavaScript Deep Dive</h3>
+</summary>
 
-### 🔵 React & Algorithm Practice
-> React 실전 문제 및 알고리즘 풀이
-- [ ] 프로그래머스 Level 1 완주
-- [ ] React 렌더링 최적화 문제 구현
+| 날짜 | 챕터 | 주제 | 키워드 | 링크 |
+|:---:|:---:|:---|:---|:---:|
+| 25.12.12 | 04장 | **변수란 무엇인가** | `메모리 주소` `식별자` | [이동](./javascript-deep-dive/ch04-variable.md) |
+| 25.12.13 | 09장 | 타입 변환과 단축 평가 | `암묵적 타입 변환` | [이동](./javascript-deep-dive/ch09-type.md) |
+| - | 19장 | 프로토타입 | - | 작성 예정 |
+
+</details>
+
+<br/>
+
+<details>
+<summary>
+  <h3 style="display:inline-block">🎨 Design Patterns</h3>
+</summary>
+
+| 날짜 | 패턴명 | 설명 | 구현 언어 | 링크 |
+|:---:|:---|:---|:---:|:---:|
+| 25.12.12 | **Singleton** | 인스턴스를 하나만 생성 | TS | [이동](./design-patterns/singleton/README.md) |
+| - | Factory | 객체 생성을 서브클래스에 위임 | TS | 작성 예정 |
+
+</details>
+
+<br/>
+
+<details>
+<summary>
+  <h3 style="display:inline-block">🔵 React & Algorithms</h3>
+</summary>
+
+| 날짜 | 구분 | 문제 이름 | 난이도/상태 | 링크 |
+|:---:|:---:|:---|:---:|:---:|
+| 25.12.12 | Progs | 신고 결과 받기 | Lv.1 ✅ | [이동](./react-coding-test/programmers/solution_01.md) |
+| 25.12.14 | Baek | 2차원 배열 회전 | 실버3 🏃 | - |
+
+</details>
+
+<br/>
 
 ---
-*Last updated: 2025-12-12*
+*Last Updated: 2025.12.12*
