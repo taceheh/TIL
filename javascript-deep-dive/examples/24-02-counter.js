@@ -11,3 +11,6 @@ const increase = (function () {
   console.log(increase()); // 1
   console.log(increase()); // 2
   console.log(increase()); // 3
+
+
+// 해설 : num 변수는 increase 함수(클로저)만이 변경 가능. 전역 변수로 만들었을 때 누군가 실수로 `num = 100`으로 변경하는 부작용(Side Effect)을 원천 차단
