@@ -125,6 +125,7 @@ GC는 그 환경을 지우지 않음
 
 ```
 // ❌ 클로저 아님
+
 function outer() {
   let a = 0;
   function inner() {
@@ -135,7 +136,6 @@ function outer() {
 
 ```
 ⭕ 진짜 클로저 구조
-JavaScript
 
 function outer() {
   let a = 10; // 1. 외부 함수의 변수 
