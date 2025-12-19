@@ -23,6 +23,7 @@
 ## 3. 동작 원리: 바인딩 규칙 (Mechanism)
 *자바스크립트 엔진은 함수 호출 시점에 `this` 바인딩을 결정함.*
 
+[💾 예제 코드 실행해보기](./examples/22-01-this-binding.js)
 
 
 ### 3.1 일반 함수 호출 (Default Binding)
@@ -69,3 +70,18 @@ const obj = {
 };
 
 obj.foo();
+```
+- **문제점** : setTimeout 안의 콜백 함수는 '일반 함수'로 호출됨. 따라서 this는 obj가 아니라 window를 가리킴.
+- **결과** : undefined 출력.
+- **해결 방법** : 화살표 함수 사용: setTimeout(() => console.log(this.value), 100);<br>화살표 함수 사용: setTimeout(() => console.log(this.value), 100);
+
+<br>
+
+## 6. 헷갈렸던 부분 & 의문점 (Troubleshooting)
+### 6.1 메서드 내부의 함수
+- **Q.** 메서드 안에서 정의된 중첩 함수도 this가 객체일까?
+- **A.** 아니다. 중첩 함수라도 **일반 함수로 호출(foo())**되면 무조건 전역 객체다. 이걸 해결하려고 화살표 함수가 나왔다.
+
+### 6.2 이벤트 핸들러의 this
+- **Q.** HTML 요소에 클릭 이벤트를 걸면 this는 뭔가?
+- **A.** addEventListener를 쓰면: 이벤트를 바인딩한 DOM 요소 (currentTarget).<br>리액트(onClick)에서 쓰면: 화살표 함수를 주로 쓰므로 상위 컴포넌트나 클래스 인스턴스.
