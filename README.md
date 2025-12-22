@@ -16,7 +16,7 @@
 |:---:|:---:|:---|:---|:---:|
 | - | 04장 | **변수란 무엇인가** | `메모리 주소` `식별자` | 작성 예정 |
 | - | 09장 | 타입 변환과 단축 평가 | `암묵적 타입 변환` | 작성 예정 |
-| - | 19장 | **프로토타입 (Prototype)** | `프로토타입 체인` `상속` | [이동](./javascript-deep-dive/ch19-prototype.md) |
+| 25.12.22 | 19장 | **프로토타입 (Prototype)** | `프로토타입 체인` `상속` | [이동](./javascript-deep-dive/ch19-prototype.md) |
 | 25.12.18 | 22장 | **this** | `동적 바인딩` `함수 호출 방식` | [이동](./javascript-deep-dive/ch22-this.md) |
 | 25.12.17 | 23장 | **실행 컨텍스트 (Execution Context)** | `렉시컬 환경` `실행 컨텍스트 스택` | [이동](./javascript-deep-dive/ch23-execution-context.md) |
 | 25.12.16 | 24장 | **클로저(Closure)** | `렉시컬 스코프` | [이동](./javascript-deep-dive/ch24-closure.md) |
