@@ -65,6 +65,9 @@ const arrObj = {
 
 예: `[1, 2, 3]` → (총합) → `6`
 
+
+[💾 예제 코드 실행해보기](./examples/27-01-higher-order-functions.js)
+
 <br>
 
 ## 5. 자주 발생하는 실수 (Common Mistakes)
