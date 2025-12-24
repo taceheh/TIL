@@ -22,7 +22,7 @@
 | 25.12.16 | 24장 | **클로저(Closure)** | `렉시컬 스코프` | [이동](./javascript-deep-dive/ch24-closure.md) |
 | 25.12.23 | 25장 | **클래스 (Class)** | `syntactic sugar` `extends` | [이동](./javascript-deep-dive/ch25-class.md) |
 | 25.12.24 | 27장 | **배열 (Array)** | `고차 함수` `불변성` `희소 배열` `map/filter/reduce` | [이동](./javascript-deep-dive/ch27-array.md) |
-| - | 42장 | **비동기 프로그래밍** | `이벤트 루프` `태스크 큐` | [이동](./javascript-deep-dive/ch42-asynchronous.md) |
+| 25.12.25 | 42장 | **비동기 프로그래밍** | `이벤트 루프` `태스크 큐` | [이동](./javascript-deep-dive/ch42-asynchronous.md) |
 
 </details>
 
