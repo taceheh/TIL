@@ -23,7 +23,8 @@
 | 25.12.23 | 25장 | **클래스 (Class)** | `syntactic sugar` `extends` | [이동](./javascript-deep-dive/ch25-class.md) |
 | 25.12.24 | 27장 | **배열 (Array)** | `고차 함수` `불변성` `희소 배열` `map/filter/reduce` | [이동](./javascript-deep-dive/ch27-array.md) |
 | 25.12.25 | 42장 | **비동기 프로그래밍** | `이벤트 루프` `태스크 큐` | [이동](./javascript-deep-dive/ch42-asynchronous.md) |
-| 25.12.28 | 45장 | **프로미스 (Promise)** | `콜백 지옥` `프로미스 체이닝` `Promise.all` | [이동](./javascript-deep-dive/ch42-promise.md) |
+| 25.12.28 | 45장 | **프로미스 (Promise)** | `콜백 지옥` `프로미스 체이닝` `Promise.all` | [이동](./javascript-deep-dive/ch45-promise.md) |
+| 25.12.31 | 46장 | **async/await** | `제너레이터(Generator)` `async/await` `에러 핸들링(try...catch)` | [이동](./javascript-deep-dive/ch46-async-await.md) |
 
 </details>
 
