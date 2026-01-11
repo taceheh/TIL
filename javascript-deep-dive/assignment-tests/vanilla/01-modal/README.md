@@ -62,6 +62,8 @@
 </html>
 ```
 
+### CSS
+
 ```css
 body {
   font-family: sans-serif;
@@ -133,6 +135,8 @@ body {
 }
 ```
 
+### Javascript (구현 내용)
+
 ```javascript
 // app.js
 
@@ -157,3 +161,13 @@ modal.addEventListener('click', (e) => {
   // 힌트: e.target이 무엇일 때 닫아야 할까?
 });
 ```
+
+## 🤔 Retrospective (회고)
+
+### 1. 배운 점 (What I Learned)
+
+### 2. 어려웠던 점 / 해결 방법 (Troubleshooting)
+
+- 문제 :
+- 원인 :
+- 해결 :

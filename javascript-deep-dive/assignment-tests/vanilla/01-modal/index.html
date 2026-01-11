@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vanilla JS Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="btn-group">
+      <button id="open-btn">모달 열기</button>
+      <button id="toggle-btn">상태 토글</button>
+    </div>
+
+    <div id="modal" class="modal-overlay hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>안녕하세요!</h3>
+          <button id="close-btn">X</button>
+        </div>
+        <div class="modal-body">
+          <p>순수 자바스크립트로 만든 모달입니다.</p>
+          <p>외부 배경을 클릭해도 닫힙니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
