@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vanilla JS Tabs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Tab Menu</h2>
+
+      <ul class="tab-list">
+        <li class="tab-item active" data-tab="content-1">Tab 1</li>
+        <li class="tab-item" data-tab="content-2">Tab 2</li>
+        <li class="tab-item" data-tab="content-3">Tab 3</li>
+      </ul>
+
+      <div class="tab-content-group">
+        <div id="content-1" class="tab-pane active">
+          <h3>Content 1</h3>
+          <p>첫 번째 탭의 내용입니다. HTML data 속성을 활용해보세요.</p>
+        </div>
+        <div id="content-2" class="tab-pane">
+          <h3>Content 2</h3>
+          <p>두 번째 탭의 내용입니다. 이벤트 위임을 사용했나요?</p>
+        </div>
+        <div id="content-3" class="tab-pane">
+          <h3>Content 3</h3>
+          <p>세 번째 탭의 내용입니다. active 클래스를 잘 제어해보세요.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
