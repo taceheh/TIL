@@ -54,24 +54,24 @@
 
 > **Goal:** AI 도움 없이 공식 문서만으로 구현하기 (Time Limit: 3h)
 
-| 날짜 |   구분   | 과제 주제 (Mini Project)          | 핵심 기술 (Keywords)                         |                      링크                      |
-| :--: | :------: | :-------------------------------- | :------------------------------------------- | :--------------------------------------------: |
-|  -   | Vanilla  | **모달 (Modal) & 토글**           | `DOM API` `classList` `Event Bubbling`       | [이동](./assignment-tests/vanilla/01-modal.md) |
-|  -   | Vanilla  | **탭 메뉴 (Tab Menu)**            | `Event Delegation` `data-attribute`          |                   작성 예정                    |
-|  -   | Vanilla  | **고양이 사진 검색기**            | `fetch` `async/await` `Error Handling`       |                   작성 예정                    |
-|  -   | Vanilla  | **투두 리스트 (CRUD)**            | `localStorage` `JSON` `DOM Manipulation`     |                   작성 예정                    |
-|  -   | Vanilla  | **무한 스크롤 (Infinite Scroll)** | `IntersectionObserver` `Throttle`            |                   작성 예정                    |
-|  -   | Vanilla  | **장바구니 (Shopping Cart)**      | `Event Delegation` `State Management`        |                   작성 예정                    |
-|  -   | React JS | **실시간 검색 (Debounce)**        | `useEffect` `Clean-up` `setTimeout`          |                   작성 예정                    |
-|  -   | React JS | **페이지네이션 (Pagination)**     | `Array.from` `slice` `Query String`          |                   작성 예정                    |
-|  -   | React JS | **이미지 슬라이더 (Carousel)**    | `useRef` `CSS Transform` `setInterval`       |                   작성 예정                    |
-|  -   | React JS | **드롭다운 (Dropdown)**           | `Keyboard Accessiblity` `Focus Management`   |                   작성 예정                    |
-|  -   | React JS | **다크모드 (Theme Mode)**         | `Context API` `Provider` `localStorage`      |                   작성 예정                    |
-|  -   | React JS | **유튜브 리스트 (Mock)**          | `Props Drilling` `Modal Portal`              |                   작성 예정                    |
-|  -   | React JS | **커스텀 훅 (Custom Hooks)**      | `useFetch` `useInput` `Abstraction`          |                   작성 예정                    |
-|  -   | React JS | **성능 최적화 (Optimization)**    | `React.memo` `useMemo` `useCallback`         |                   작성 예정                    |
-|  -   | React JS | **에러 처리 (Error Boundary)**    | `ErrorBoundary` `try-catch` `Fallback UI`    |                   작성 예정                    |
-|  -   | React JS | **쇼핑몰 SPA (Final)**            | `React Router` `Global State` `Architecture` |                   작성 예정                    |
+|   날짜   |   구분   | 과제 주제 (Mini Project)          | 핵심 기술 (Keywords)                         |                      링크                       |
+| :------: | :------: | :-------------------------------- | :------------------------------------------- | :---------------------------------------------: |
+| 26.01.12 | Vanilla  | **모달 (Modal) & 토글**           | `DOM API` `classList` `Event Bubbling`       | [이동](./assignment-tests/vanilla/01-modal.md)  |
+| 26.01.13 | Vanilla  | **탭 메뉴 (Tab Menu)**            | `Event Delegation` `data-attribute`          |  [이동](./assignment-tests/vanilla/02-tab.md)   |
+| 26.01.14 | Vanilla  | **고양이 사진 검색기**            | `fetch` `async/await` `Error Handling`       | [이동](./assignment-tests/vanilla/03-search.md) |
+|    -     | Vanilla  | **투두 리스트 (CRUD)**            | `localStorage` `JSON` `DOM Manipulation`     |                    작성 예정                    |
+|    -     | Vanilla  | **무한 스크롤 (Infinite Scroll)** | `IntersectionObserver` `Throttle`            |                    작성 예정                    |
+|    -     | Vanilla  | **장바구니 (Shopping Cart)**      | `Event Delegation` `State Management`        |                    작성 예정                    |
+|    -     | React JS | **실시간 검색 (Debounce)**        | `useEffect` `Clean-up` `setTimeout`          |                    작성 예정                    |
+|    -     | React JS | **페이지네이션 (Pagination)**     | `Array.from` `slice` `Query String`          |                    작성 예정                    |
+|    -     | React JS | **이미지 슬라이더 (Carousel)**    | `useRef` `CSS Transform` `setInterval`       |                    작성 예정                    |
+|    -     | React JS | **드롭다운 (Dropdown)**           | `Keyboard Accessiblity` `Focus Management`   |                    작성 예정                    |
+|    -     | React JS | **다크모드 (Theme Mode)**         | `Context API` `Provider` `localStorage`      |                    작성 예정                    |
+|    -     | React JS | **유튜브 리스트 (Mock)**          | `Props Drilling` `Modal Portal`              |                    작성 예정                    |
+|    -     | React JS | **커스텀 훅 (Custom Hooks)**      | `useFetch` `useInput` `Abstraction`          |                    작성 예정                    |
+|    -     | React JS | **성능 최적화 (Optimization)**    | `React.memo` `useMemo` `useCallback`         |                    작성 예정                    |
+|    -     | React JS | **에러 처리 (Error Boundary)**    | `ErrorBoundary` `try-catch` `Fallback UI`    |                    작성 예정                    |
+|    -     | React JS | **쇼핑몰 SPA (Final)**            | `React Router` `Global State` `Architecture` |                    작성 예정                    |
 
 </details>
 <br/>
